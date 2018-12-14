@@ -1,0 +1,46 @@
+.Form_Container {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+	background-color: hsl(149, 67%, 54%);
+    /* background-color: lightgreen; */
+    /* border: 4px solid black; */
+    border-radius: 25px;
+    height: 65vh;
+    width: 20vw;
+}
+
+.Preview_Image {
+	border: 2px solid red;
+}
+
+.Input_Form {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+.Button_Form {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.Cancel_Button {
+	background-color: lightcoral;
+	border: none;
+	border-radius: 25px;
+}
+
+.Add_Button {
+	background-color: lightcoral;
+	border: none;
+	border-radius: 25px;
+
+}

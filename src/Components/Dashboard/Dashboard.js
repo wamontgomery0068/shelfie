@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Product from '../Product/Product';
+import Form from '../Form/Form';
 // import axios from 'axios';
 
 import './Dashboard.css';
@@ -24,9 +25,9 @@ class Dashboard extends Component {
 
     render(){
         return(
-            <div className = "Dashboard">
-                <h1> Dashboard Component </h1>
-                < Product />
+            <div className = "Dashboard_Container">
+                <Product />
+                <Form />
             </div>
         )
     };
